@@ -18,12 +18,24 @@
 fem-beam-foundations/
 ├── src/
 │   └── fem_beam/
-│       └── __init__.py
+│       └── __init__.py
+│   └── theory_beam/
+│       ├── __init__.py
+│       └── euler_bernoulli.py      # The analytical solution
 ├── tests/
-│   └── test_pipeline.py
+│   ├── test_pipeline.py
+│   └── test_euler_bernoulli.py
 ├── scripts/
+│   └── plot_analytical_solution.py # Display the analytical solution
 └── docs/
 ```
+
+---
+
+## Module Responsibilities
+
+### `euler_bernoulli.py`
+Analytical solution for a 1D Euler–Bernoulli cantilever beam subjected to a point load at the free end.
 
 ---
 
@@ -42,6 +54,7 @@ fem-beam-foundations/
 | `numpy`      | Array operations, linear algebra |
 | `pytest`     | Test runner                      |
 | `pytest-cov` | Coverage measurement             |
+| Codecov      | Coverage tracking and badge      |
 
 ---
 

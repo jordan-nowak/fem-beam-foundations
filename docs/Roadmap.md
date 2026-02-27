@@ -28,7 +28,7 @@
 ## Phase 1 — Analytical Solution
 | Ref    | Feature | Status |
 | ------ | ------- | ------ |
-| [0001] | ...     | 📋     |
+| [0001](./00_Decisions/0001_AnalyticalSolution.md) | Implement the analytical solution | ✅ |
 
 ---
 

@@ -14,10 +14,8 @@ dist/
 # Test / coverage
 .pytest_cache/
 .coverage
+junit.xml
 htmlcov/
-
-# Jupyter (if ever used)
-.ipynb_checkpoints/
 
 # IDE
 .vscode/
