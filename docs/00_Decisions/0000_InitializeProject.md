@@ -23,7 +23,8 @@ Set up the full project scaffold before any code is written, covering:
     - And software architecture/design/validation docs
 
 ## Implementation
-Branch: `feature/0000_InitializeProject`  
+Branch: `feature/0000_InitializeProject`
+
 Commit: `[0000] feat(project): initialize project structure`
 
 **Project layout:**
@@ -77,4 +78,4 @@ No functional tests for this feature. Validation is structural:
 ## Risks/Impacts
 No particular points to monitor regarding this development.
 
-[<-- Roadmap](../Roadmap.md) · [Software Architecture -->](../01_Software_Architecture.md)
+[<-- Roadmap](../Roadmap.md) · [0001_AnalyticalSolution -->](./0001_AnalyticalSolution.md)
