@@ -105,9 +105,7 @@ Implementation file: `src/theory_beam/euler_bernoulli.py`
 A first display is implemented to visualize this solution in `script/plot_analytical_solution.py`.
 
 ## Related Tests
-All unit tests are implemented in `tests/test_euler_bernoulli.py` and cover functions of `analytical` module (`deflection`, `rotation`, `bending_moment`) across four categories:
-
-**The tests follow this structure:**
+All unit tests are implemented in `tests/test_euler_bernoulli.py` and cover functions of `euler_bernoulli` module (`deflection`, `rotation`, `bending_moment`) according to the following structure:
 1. Normal cases
 2. Boundary conditions
 3. Mathematical properties
@@ -117,11 +115,10 @@ All unit tests are implemented in `tests/test_euler_bernoulli.py` and cover func
 
 **CI pipeline requirements:**
 - Tests run on Ubuntu and Windows
-- Compatible with three Python versions
+- Compatible with Python 3.11, 3.12, 3.13
 - No regression allowed
 
 ## Risks and Limitations
-
 - Valid only under Euler–Bernoulli assumptions
 - Not valid for:
   - Large deflections
@@ -131,4 +128,4 @@ All unit tests are implemented in `tests/test_euler_bernoulli.py` and cover func
 
 Future extensions may require a generalized formulation.
 
-[<-- 0000_InitializeProject](./0000_InitializeProject.md) · [Software Architecture -->](../01_Software_Architecture.md)
+[<-- 0000_InitializeProject](./0000_InitializeProject.md) · [0002_MeshModule -->](../0002_MeshModule.md)

@@ -7,4 +7,4 @@ This package provides tools to solve Euler–Bernoulli beam
 equations using the finite element method.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"

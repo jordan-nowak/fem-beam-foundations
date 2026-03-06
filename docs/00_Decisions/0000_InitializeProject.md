@@ -17,7 +17,7 @@ Set up the full project scaffold before any code is written, covering:
 - CI pipeline (multi-OS, multi-Python version)
 - Coverage reporting via Codecov
 - GitHub PR template
-- Add minimal test to validate CI pipeline (with `test_pipeline.py`)
+- Add minimal test to validate CI pipeline (with `test_version.py`)
 - Documentation structure (`docs/`)
     - Architecture Decision Records (ADR) for each features
     - And software architecture/design/validation docs
@@ -45,7 +45,7 @@ fem-beam-foundations/
 │   └── fem_beam/
 │       └── __init__.py
 ├── tests/
-│   └── test_pipeline.py
+│   └── test_version.py
 ├── .gitignore
 ├── LICENSE
 ├── pyproject.toml
