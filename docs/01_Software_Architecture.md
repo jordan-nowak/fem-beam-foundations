@@ -21,10 +21,12 @@ fem-beam-foundations/
 │       └── __init__.py
 │   └── theory_beam/
 │       ├── __init__.py
-│       └── euler_bernoulli.py      # The analytical solution
+│       ├── euler_bernoulli.py      # The analytical solution
+│       └── mesh.py                 # Mesh generation (nodes, elements)
 ├── tests/
-│   ├── test_pipeline.py
-│   └── test_euler_bernoulli.py
+│   ├── test_version.py
+│   ├── test_euler_bernoulli.py
+│   └── test_mesh.py
 ├── scripts/
 │   └── plot_analytical_solution.py # Display the analytical solution
 └── docs/
@@ -36,6 +38,9 @@ fem-beam-foundations/
 
 ### `euler_bernoulli.py`
 Analytical solution for a 1D Euler–Bernoulli cantilever beam subjected to a point load at the free end.
+
+### `mesh.py`
+Generates the 1D mesh: node coordinates and element connectivity. Each element connects two adjacent nodes. Output is a simple data structure (nodes array, elements array) consumed by the assembly step.
 
 ---
 

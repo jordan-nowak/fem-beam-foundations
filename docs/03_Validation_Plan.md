@@ -43,6 +43,8 @@ Each module is tested in isolation with known inputs and expected outputs.
 | -------------------- | ---- | --------------- |
 | `euler_bernoulli.py` | deflection, rotation, bending moment | Matches analytical formula and respects boundary conditions |
 | `euler_bernoulli.py` | out-of-bounds x | Raises `ValueError` |
+| `mesh.py` | ... | ... |
+| ... | ... | ... |
 
 **Error handling:** Verify that functions raise ValueError for out-of-bounds x positions.
 

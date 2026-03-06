@@ -3,7 +3,7 @@ Visualize analytical solution of a cantilever beam under tip load.
 
 - Shows deformed shape of the beam
 - Coloration along the beam based on bending moment
-- Flèche de charge à l'extrémité
+- Load arrow at the end
 - Traditional plots of deflection, rotation, and bending moment
 
 Author: Jordan NOWAK
